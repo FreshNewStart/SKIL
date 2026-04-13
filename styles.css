@@ -276,7 +276,7 @@ padding: 4rem;
     min-width: 280px;
 }
 
-h2{
+.trust-text h2{
     color: rgb(0, 39, 71);
     font-size: 3rem;
     margin-bottom: 0%;
@@ -413,6 +413,9 @@ form > *{
   }
 
     @media (max-width: 800px) {
+        .overview h2, .support-content h2, .house-types h2, .trust-text h2{
+            font-size: 2rem;
+        }
         .header{
             justify-content: space-between;
         }

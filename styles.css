@@ -433,7 +433,7 @@ form > *{
             font-size: 1.1rem;
         }
         .header .button {
-            margin-right: 0;
+            margin-right: .5rem;
         }
         .header .logo-container .logo{
             width: 5rem;

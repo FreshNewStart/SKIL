@@ -46,7 +46,7 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    background-image: url(HeroBack00.jpg);
+    background-image: url(assets/HeroBack00.jpg);
     
 }
 .welcome-section img{
@@ -117,6 +117,8 @@ strong{
     color: rgb(180, 180, 180);
     text-shadow: black 1px 1px 3px;
 }
+
+
 
 @media (max-width: 1440px) {
     p, li{

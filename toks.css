@@ -28,12 +28,16 @@ h4{
 .remarks{
     color: rgb(0, 255, 0);
 }
-.option h4 span{
+.option span{
     color: gold;
     font-weight: 500;
 }
 .option h4{
     font-weight: 300;
+}
+.option p strong{
+    color: gold;
+    font-weight: 500;
 }
 .button{
     width: fit-content;

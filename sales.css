@@ -9,16 +9,11 @@
 html,body{
     overflow-x: hidden;
 }
-body{
-}
 .overlay{
     height: 100vh;
     width: 100%;
     position: absolute;
     z-index: 0;
-}
-main{
-    
 }
 .button{
     width: fit-content;
@@ -51,7 +46,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
-    background-image: url(HeroBack00.jpg);
+    background-image: url(assets/HeroBack00.jpg);
     
 }
 .welcome-section img{
@@ -102,7 +97,7 @@ main{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 .card h2{
-    color: rgb(180, 180, 180);
+    color: #5d9effea;
     text-shadow: black 1px 1px 3px;
 }
 li{
@@ -119,7 +114,7 @@ li{
     margin-left: 2rem;
 }
 strong{
-    color: #5d9effea;
+    color: rgb(180, 180, 180);
     text-shadow: black 1px 1px 3px;
 }
 

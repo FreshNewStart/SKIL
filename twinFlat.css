@@ -10,7 +10,7 @@ html,body{
     overflow-x: hidden;
 }
 main{
-    background-image: url(assets/HeroBack.jpg);
+    background-image: url(assets/HeroBack.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;

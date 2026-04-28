@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Basic Icons -->
-<!-- Brand Icons -->
-<link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+     <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +14,7 @@
 </head>
 <body>
     <main>
+        <a href="index.html" class="back-btn"><i class="bx bx-home-alt"></i></a>
         <header class="header">
             <div class="logo-container">
                 <img class="logo" src="assets/SKIL-LOGO.png" alt="">
@@ -256,3 +260,23 @@ This is more than a development. It is a long-term vision to create sustainable,
     </main>
 </body>
 </html>
+<style>
+    .back-btn{
+        position: fixed;
+        top: 1rem;
+        left: 2rem;
+         width: fit-content;
+    height: fit-content;
+    padding: .2rem .6rem;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 174);
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: black 1px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 100;
+    }
+</style>

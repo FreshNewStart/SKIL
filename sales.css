@@ -83,6 +83,9 @@ main{
     margin: 1rem 0;
     text-shadow: black 1px 1px 3px;
 }
+.welcome-section p span{
+    color: rgb(0, 162, 255);
+}
 .cards-container{
     display: flex;
     gap: 1rem;

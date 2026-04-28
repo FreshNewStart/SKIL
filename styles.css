@@ -19,6 +19,9 @@ main{
     align-items: center;
     background-color: whitesmoke;
 }
+main > .button{
+    
+}
 h1{
     color: rgb(0, 39, 71);
 }
